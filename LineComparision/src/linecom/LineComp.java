@@ -31,8 +31,15 @@ public class LineComp {
     System.out.println("The Two Lines Are Equal");
     else
     	System.out.println("The Two Line Are Not Equal");
+   double check = str1.compareTo(str2);
+   if(check == 0)
+  System.out.println("The Two Lines Are Equal");
+  else if(check < 0.0)
+	  System.out.println("Line1 is Smaller Than Line2");
+  else
+	  System.out.println("Line1 is Greater Then Line2");
    
-    	
+    
 	}
 
 }
